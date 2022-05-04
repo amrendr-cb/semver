@@ -1,3 +1,10 @@
+# [1.1.0-rc.2](https://github.com/amrendr-cb/semver/compare/v1.1.0-rc.1...v1.1.0-rc.2) (2022-05-04)
+
+
+### Bug Fixes
+
+* **rc:** commit 2 ([c575d3e](https://github.com/amrendr-cb/semver/commit/c575d3e004aa22b3624e51118a1078d37eaca74a))
+
 # [1.1.0-rc.1](https://github.com/amrendr-cb/semver/compare/v1.0.0...v1.1.0-rc.1) (2022-05-04)
 
 
