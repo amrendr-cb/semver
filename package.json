@@ -1,6 +1,6 @@
 {
   "name": "semver",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "commit": "git-cz",
@@ -12,9 +12,7 @@
     "type": "git",
     "url": "https://github.com/amrendr-cb/semver.git"
   },
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "publishConfig": {
     "access": "restricted"
   },
