@@ -1,8 +1,8 @@
 # Things to remember
 
-* **Don't** use merge commit except for cutting releases
-* **Don't** merge `main` or `rc` branches to PR or local branches
-* **Always** rebase PR or local branches
+* **Don't** use `merge` commit except for cutting releases
+* **Don't** `merge` `main` or `rc` branches to PR or local branches
+* **Always** `rebase` PR or local branches instead of `merge`
 # Cutting a release
 
 ## Visual
