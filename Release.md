@@ -54,12 +54,12 @@ You will have merge conflicts, please resolve them. Some guidance for the follow
     git rebase
     git merge origin/main --no-ff
     ... resolve conflicts
-    ... add a dummy feature commit
+    git commit --allow-empty -m "feat(pre-release): Starting next rc branch" 
     git push
 ```
 You will have merge conflicts, please resolve them. Some guidance for the following files
    
 * `CHANGELOG.md` -> accept all incoming changes
 * `package.json` -> accept all incoming changes
-* Add a dummy feature commit
+* Add a empty (dummy) feature commit
 * push changes to origin
