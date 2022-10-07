@@ -1,3 +1,10 @@
+# [1.3.0-rc.1](https://github.com/amrendr-cb/semver/compare/v1.2.0...v1.3.0-rc.1) (2022-10-07)
+
+
+### Features
+
+* **pre-release:** Starting next rc branch ([c020e74](https://github.com/amrendr-cb/semver/commit/c020e744620d9fe380a1969215bee198345b747f))
+
 # [1.2.0](https://github.com/amrendr-cb/semver/compare/v1.1.0...v1.2.0) (2022-10-07)
 
 
