@@ -1,3 +1,10 @@
+# [1.2.0-rc.2](https://github.com/amrendr-cb/semver/compare/v1.2.0-rc.1...v1.2.0-rc.2) (2022-10-07)
+
+
+### Bug Fixes
+
+* **doc:** add release link on readme ([a086923](https://github.com/amrendr-cb/semver/commit/a086923c69ee38726fc90922dadc6e083eaf57bd))
+
 # [1.2.0-rc.1](https://github.com/amrendr-cb/semver/compare/v1.1.0...v1.2.0-rc.1) (2022-05-04)
 
 
