@@ -1,3 +1,6 @@
+### Cutting a release
+Checkout [Release.md](./Release.md)
+
 ### Helpful extension for VScode
 There is a list of helpful vscode extensions for this project is recommended in this repository and during your first load vscode will prompt you to install those [extensions](./.vscode/extensions.json).
 
