@@ -10,8 +10,8 @@
 ![image](./GitGraph-semver.png)
 
 
-* first checkout `rc` ensure it is up to date.
-* then merge `origin/main` to `rc`
+* **STEP 1:** first checkout `rc` ensure it is up to date.
+* **STEP 2:** then merge `origin/main` to `rc`
 
 ```zsh
     git fetch
@@ -22,16 +22,17 @@
 ```
 You will have merge conflicts, please resolve them. Some guidance for the following files
    
-* `CHANGELOG.md` -> accept all incoming changes
-* `package.json` -> accept incoming changes for version entry
+* **STEP 3:** `CHANGELOG.md` -> accept all incoming changes
+* **STEP 4:** `package.json` -> accept incoming changes for version entry
+* **STEP 5:** Resolve conflict and push changes to the origin
 
 **After resolving merge conflicts, Push changes to the origin and ensure the `rc` branch builds properly, any test passes, and/or any validation.**
 
 
 ### Once the RC branch is validated
 
-* checkout `main`, ensure it is up to date.
-* then merge `origin/rc` to `main`
+* **STEP 6:** checkout `main`, ensure it is up to date.
+* **STEP 7:** then merge `origin/rc` to `main`
 
 ```zsh
     git fetch
@@ -40,14 +41,14 @@ You will have merge conflicts, please resolve them. Some guidance for the follow
     ... resolve conflicts
     git push
 ```
-**You may have merge conflicts. Resolve them and push changes to origin.**
+* **STEP 8:** You may have merge conflicts. Resolve them and push changes to origin.
 
 
 ## Get the `rc` branch ready for the next development
 
-* New version is available on the main branch
-* checkout `rc`, and ensure it is up to date.
-* then merge `origin/main` to `rc`
+* **STEP 09:** New version is available on the main branch
+* **STEP 10:** checkout `rc`, and ensure it is up to date.
+* **STEP 11:** then merge `origin/main` to `rc`
 
 ```zsh
     git fetch
@@ -59,7 +60,7 @@ You will have merge conflicts, please resolve them. Some guidance for the follow
 ```
 You will have merge conflicts, please resolve them. Some guidance for the following files
    
-* `CHANGELOG.md` -> accept all incoming changes
-* `package.json` -> accept all incoming changes
-* Add a empty (dummy) feature commit
-* push changes to origin
+* **STEP 12:** `CHANGELOG.md` -> accept all incoming changes
+* **STEP 13:** `package.json` -> accept all incoming changes
+* **STEP 14:** Add a empty (dummy) feature commit
+* **STEP 15:** push changes to origin
